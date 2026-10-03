@@ -1,3 +1,7 @@
+<p align="left">
+  <img src="Screenshots/maclator-icon.png" width="128" alt="Maclator icon">
+</p>
+
 # maclator-simplified
 
 **Run arm64 macOS apps on an Intel Mac, with a point-and-click launcher.**
