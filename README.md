@@ -15,9 +15,18 @@ This is a simplified fork of [linuxkid473/maclator](https://github.com/linuxkid4
 > **Status: experimental.** Some apps run well, many will not. macOS 14 and 15 are supported by the tooling but are
 > experimental; macOS 26 is the tested setup.
 
-## What runs
+## macOS support
 
-Results from the original project, i didn't test compatability with any other versions, tested on an Intel Core i5-4440 with macOS 26.7:
+| Version | Status |
+|---|---|
+| macOS 26 | Tested, fully works |
+| macOS 15 | Tested, fully works | 
+| macOS 14 | Untested, probably works |
+| macOS 13 | Unsupported, doesn't work |
+
+# Any version below macOS 14 is unsupported, more version support may be added although it's not guranteed.
+
+## What runs
 
 | Program | Status |
 |---|---|
@@ -35,7 +44,7 @@ Apps from the Mac App Store (encrypted) are not supported.
 ## What you need
 
 - An **Intel Mac** (any Mac that can run macOS 14 or newer; more CPU cores and RAM help a lot).
-- **macOS 26** (tested), or macOS 14 / 15 (untested).
+- **macOS 26** (tested), **macOS 15** (tested) or **macOS 14** (untested)
 - About **10 GB** of free disk space and an internet connection for the one-time download.
 - Free tools: Xcode Command Line Tools, Rust, and `ipsw`.
 
