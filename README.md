@@ -6,14 +6,6 @@ Maclator is a "reverse Rosetta". It loads an arm64 app together with the real ar
 Apple Silicon macOS image that *you* download from Apple) and runs the arm64 code on your Intel processor. Metal
 graphics can be passed through to your Mac's real GPU.
 
-This is a simplified fork of [linuxkid473/maclator](https://github.com/linuxkid473/maclator). It adds:
-
-- **Maclator Launcher**, a small Mac app: pick an `.app` or an arm64 binary, press Run.
-- A **Setup** screen that checks your Mac and downloads what is missing.
-- Tooling for **macOS 14 (Sonoma), 15 (Sequoia) and 26 (Tahoe)**.
-
-> **Status: experimental.** Some apps run well, many will not. macOS 14 and 15 are supported by the tooling but are
-> experimental; macOS 26 is the tested setup.
 
 ## macOS support
 
@@ -24,7 +16,7 @@ This is a simplified fork of [linuxkid473/maclator](https://github.com/linuxkid4
 | macOS 14 | Untested, probably works |
 | macOS 13 | Unsupported, doesn't work |
 
-# Any version below macOS 14 is unsupported, more version support may be added although it's not guranteed.
+**Any version below macOS 14 is unsupported, more version support may be added although it's not guranteed.**
 
 ## What runs
 
